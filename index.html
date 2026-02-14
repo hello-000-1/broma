@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Escaneo - Escape Room</title>
+    <!-- Vinculación del archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Cuadro interactivo que inicia la experiencia -->
+        <div id="clickBox" class="click-box">CLICK AQUI</div>
+    </div>
+
+    <!-- Elemento de imagen que se mostrará al completar el escaneo -->
+    <img id="scareImage" src="imagenTerror.jpeg" alt="Susto" class="hidden">
+    
+    <!-- Elemento de video que se reproducirá después de la imagen -->
+    <video id="scareVideo" src="Paisaje.mp4" class="hidden"></video>
+    
+    <!-- Elemento de audio que se reproducirá al completar el escaneo -->
+    <audio id="scareAudio" src="sfx-horror10.mp3"></audio>
+
+    <!-- Vinculación del archivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
